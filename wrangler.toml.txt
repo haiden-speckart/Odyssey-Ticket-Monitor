@@ -1,6 +1,6 @@
-name = "odyssey-monitor"
-main = "src/index.js"
-compatibility_date = "2026-04-01"
+name: "odyssey-ticket-monitor",
+compatibility_date: "2026-05-26",
+main: "src/index.js"
 
 [triggers]
 crons = [ "*/5 * * * *" ]
