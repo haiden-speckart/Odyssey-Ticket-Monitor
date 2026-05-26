@@ -1,10 +1,10 @@
-name = "odyssey-ticket-monitor"
+name = "odyssey-monitor"
 main = "src/index.js"
-compatibility_date = "2026-05-25"
+compatibility_date = "2026-04-01"
 
 [triggers]
 crons = [ "*/5 * * * *" ]
 
 [[kv_namespaces]]
 binding = "STATE"
-id = "0427ae03d4a8466986431562888ad342"
+id = "YOUR_ACTUAL_KV_ID_HERE"
